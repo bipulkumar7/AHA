@@ -1,6 +1,6 @@
 #!/bin/bash
 SCRIPT_VERSION=v2.0.0
-WORKING_DIR='/root/Infrasture-as-code'
+WORKING_DIR='/home/ubuntu/'
 URL='https://cdn.rstudio.com/connect/2022.05/rstudio-connect_2022.05.0~ubuntu20_amd64.deb'
 
 # Put list of the packages here
