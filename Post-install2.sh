@@ -15,7 +15,7 @@ Install_package ()
  	pushd $WORKING_DIR 2>&1> /dev/null
 	
 	# Checking working directory
-	if [ "$PWD" == $WORKING_DIR ]; then
+	if [ "$PWD/" == $WORKING_DIR ]; then
 		echo "Yes i'm in $PWDa ${array[@]} "
 		
 		#Updating repository	
