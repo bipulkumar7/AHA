@@ -383,7 +383,7 @@ Resources:
           #!/bin/bash
           pushd /home/ubuntu/
           wget https://raw.githubusercontent.com/bipulkumar7/AHA/main/Post-install2.sh
-          bash Post-install2.sh
+          bash Post-install2.sh > time
           popd
       KeyName:
         Ref: KeyName
