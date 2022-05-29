@@ -382,7 +382,7 @@ Resources:
         Fn::Base64: !Sub |
           #!/bin/bash
           pushd /home/ubuntu/
-          wget https://raw.githubusercontent.com/bipulkumar7/AHA/main/Post-install2.sh
+          wget https://raw.githubusercontent.com/bipulkumar7/AHA/55094af4e4ff3f15f7322aa695a73dee33cc1d38/Post-install2.sh
           bash Post-install2.sh
           popd
       KeyName:

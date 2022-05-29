@@ -13,6 +13,16 @@ File://Infrastructure as code principle.ipynb
 #### Documentation how to run the above code
 File://HowToRun.ipynb
 
+
+### Time
+```
+Time complexity
+File://Post-install2.sh   O(n)
+
+Time taken to install on t2.micro( vCPUs 1, RAM 1 GB, Storage ebs)
+   Elapsed time: 326645 ms
+```
+
 #### Linting
 ```
 apt-get install yamllint
