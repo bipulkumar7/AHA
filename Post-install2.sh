@@ -1,5 +1,4 @@
 #!/bin/bash
-start=$(date +%s%N)
 SCRIPT_VERSION=v2.0.0
 WORKING_DIR='/home/ubuntu/'
 URL='https://cdn.rstudio.com/connect/2022.05/rstudio-connect_2022.05.0~ubuntu20_amd64.deb'
@@ -55,6 +54,4 @@ Install_RstudioConnect ()
 
 Install_package
 Install_RstudioConnect
-end=$(date +%s%N)
-echo "Elapsed time: $(($(($end-$start))/1000000)) ms" > time
 exit $?
