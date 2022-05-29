@@ -10,6 +10,8 @@ The Appsilon project team asked you to install and configure RStudio Connect for
 #### Iac principle
 File://Infrastructure as code principle.ipynb
 
+#### Documentation how to run the above code
+File://HowToRun.ipynb
 
 #### Linting
 ```
